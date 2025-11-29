@@ -1,0 +1,1 @@
+# nse.indices.auto

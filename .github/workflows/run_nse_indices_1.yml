@@ -2,8 +2,9 @@ name: Run NSE Indices 1
 
 on:
   schedule:
-    # Every day at 02:30 UTC  ≈ 08:00 IST
-    - cron: '30 2 * * *'
+    # Every day 8:00 PM IST -> 20:00 IST = 14:30 UTC
+    - cron: '30 14 * * *'
+   
   workflow_dispatch:  # lets you run it manually from the Actions tab
 
 jobs:

@@ -246,9 +246,9 @@ def add_mtd_dod_heatmap(ws, min_row=2, min_col=2):
     rng = f"{start_col_letter}{min_row}:{end_col_letter}{ws.max_row}"
 
     rule = ColorScaleRule(
-        start_type="num", start_value=-2, start_color="FFB71C1C",     # deep red
+        start_type="num", start_value=-2, start_color="FFBE5014",     # red
         mid_type="num",  mid_value=0,  mid_color="FFFFF59D",         # yellow
-        end_type="num",  end_value=2,  end_color="FF1B5E20"          # deep green
+        end_type="num",  end_value=2,  end_color="FF92D050"          # green
     )
     ws.conditional_formatting.add(rng, rule)
 
